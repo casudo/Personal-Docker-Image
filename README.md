@@ -1,7 +1,11 @@
 # Personal Docker Image
- 
-My virtual business card
+
+This is my very lightweight virtual business card. Since the container will instantly stop once run, it's recommended to use the "--rm" flag when running it.
+You can reach out to me here: 🚀
+
+📧 contact@k1da.de
 
 ## Usage
-docker pull casudo1/vcard:v1
-docker run --rm -it casudo1/vcard:v1
+(Optional: docker pull casudo1/vcard)
+
+docker run --rm casudo1/vcard
